@@ -3,26 +3,26 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const Services = () => {
   const services = [
     {
-      title: "Conversational AI Agents",
+      title: "Conversational Wise AI Agents",
       description: "Intelligent chatbots and virtual assistants that understand context, maintain conversations, and provide meaningful interactions.",
       icon: "💬",
       features: ["Natural Language Processing", "Multi-turn Conversations", "Sentiment Analysis", "Integration Ready"]
     },
     {
-      title: "Automation Agents",
+      title: "Automation Wise AI Agents",
       description: "Smart automation systems that handle complex workflows, make decisions, and adapt to changing conditions.",
       icon: "⚡",
       features: ["Workflow Automation", "Decision Making", "Error Handling", "Performance Monitoring"]
     },
     {
-      title: "Data Analysis Agents",
+      title: "Data Analysis Wise AI Agents",
       description: "Sophisticated agents that analyze vast amounts of data, identify patterns, and generate actionable insights.",
       icon: "📊",
       features: ["Pattern Recognition", "Predictive Analytics", "Real-time Processing", "Custom Reports"]
     },
     {
       title: "Integration Solutions",
-      description: "Seamless integration of AI agents into your existing systems, ensuring smooth deployment and operation.",
+      description: "Seamless integration of Wise AI agents into your existing systems, ensuring smooth deployment and operation.",
       icon: "🔗",
       features: ["API Integration", "Legacy System Support", "Cloud Deployment", "Monitoring & Maintenance"]
     }
@@ -32,10 +32,10 @@ const Services = () => {
     <section id="services" className="py-20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 text-foreground">Our AI Agent Services</h2>
+          <h2 className="text-4xl font-bold mb-4 text-foreground">Our Wise AI Agent Services</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             While we excel in blockchain and deep tech solutions, we're currently focused on 
-            creating AI agents that solve real business problems. Each solution is crafted 
+            creating Wise AI agents that solve real business problems. Each solution is crafted 
             with precision and designed to scale.
           </p>
         </div>

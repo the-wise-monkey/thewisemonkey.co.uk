@@ -26,13 +26,13 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             <span className="text-foreground">Building</span>{" "}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Intelligent
+              Wise AI
             </span>{" "}
-            <span className="text-foreground">AI Agents</span>
+            <span className="text-foreground">Agents</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            We're a deep tech software studio specializing in AI agents, blockchain solutions, 
+            We're a deep tech software studio specializing in Wise AI agents, blockchain solutions, 
             and cutting-edge technologies that transform how businesses operate in the digital age.
           </p>
           
@@ -48,7 +48,7 @@ const Hero = () => {
           <div className="mt-12 grid grid-cols-3 gap-8 text-center">
             <div>
               <div className="text-3xl font-bold text-primary mb-2">50+</div>
-              <div className="text-muted-foreground">AI Agents Deployed</div>
+              <div className="text-muted-foreground">Wise AI Agents Deployed</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-primary mb-2">99%</div>

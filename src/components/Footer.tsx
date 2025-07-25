@@ -14,7 +14,7 @@ const Footer = () => {
           
           <div className="text-center md:text-right">
             <p className="text-muted-foreground mb-2">
-              Building the future with AI agents and deep tech solutions
+              Building the future with Wise AI agents and deep tech solutions
             </p>
             <p className="text-sm text-muted-foreground">
               © 2024 The Wise Monkey Studio. All rights reserved.
