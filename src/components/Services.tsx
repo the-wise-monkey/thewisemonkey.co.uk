@@ -34,8 +34,9 @@ const Services = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-foreground">Our AI Agent Services</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We specialize in creating AI agents that solve real business problems. 
-            Each solution is crafted with precision and designed to scale.
+            While we excel in blockchain and deep tech solutions, we're currently focused on 
+            creating AI agents that solve real business problems. Each solution is crafted 
+            with precision and designed to scale.
           </p>
         </div>
         

@@ -5,10 +5,12 @@ const Header = () => {
     <header className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">🐵</span>
-            </div>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/0ab59fbd-7462-443c-b135-228fd47b2c30.png" 
+              alt="The Wise Monkey Logo" 
+              className="w-10 h-10"
+            />
             <h1 className="text-xl font-bold text-foreground">The Wise Monkey</h1>
           </div>
           

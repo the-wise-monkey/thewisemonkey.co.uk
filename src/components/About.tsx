@@ -11,18 +11,18 @@ const About = () => {
               Meet The Wise Monkey
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              We are a specialized software development studio focused exclusively on creating 
-              intelligent AI agents. Our team combines deep technical expertise with creative 
-              problem-solving to build agents that don't just automate tasks—they think, 
-              learn, and evolve.
+              We are a deep tech software development studio with expertise spanning AI agents, 
+              blockchain technologies, and advanced software solutions. While we build across 
+              multiple cutting-edge domains, we're currently focused on creating intelligent 
+              AI agents that don't just automate tasks—they think, learn, and evolve with your business.
             </p>
             
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <div className="w-6 h-6 bg-primary rounded-full flex-shrink-0 mt-1"></div>
                 <div>
-                  <h3 className="font-semibold text-foreground mb-1">AI-First Approach</h3>
-                  <p className="text-muted-foreground">Every solution is designed with artificial intelligence at its core</p>
+                  <h3 className="font-semibold text-foreground mb-1">Deep Tech Expertise</h3>
+                  <p className="text-muted-foreground">AI agents, blockchain, and advanced software solutions</p>
                 </div>
               </div>
               

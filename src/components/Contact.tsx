@@ -21,7 +21,7 @@ const Contact = () => {
                 <CardTitle className="text-lg">Email Us</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">hello@thewisemonkey.dev</p>
+                <p className="text-muted-foreground">hello@thewisemonkey.co.uk</p>
               </CardContent>
             </Card>
             

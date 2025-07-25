@@ -32,8 +32,8 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            We craft sophisticated AI agents that transform how businesses operate, 
-            automate complex workflows, and unlock new possibilities in the digital age.
+            We're a deep tech software studio specializing in AI agents, blockchain solutions, 
+            and cutting-edge technologies that transform how businesses operate in the digital age.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
