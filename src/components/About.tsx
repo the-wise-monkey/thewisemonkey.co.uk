@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import studioImage from "@/assets/studio-workspace.jpg";
+import studioImage from "@/assets/office-team-cyan.jpg";
 
 const About = () => {
   return (
