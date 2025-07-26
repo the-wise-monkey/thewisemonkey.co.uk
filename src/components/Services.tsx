@@ -3,16 +3,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const Services = () => {
   const services = [
     {
-      title: "Conversational Wise AI Agents",
-      description: "Intelligent chatbots and virtual assistants that understand context, maintain conversations, and provide meaningful interactions.",
-      icon: "💬",
-      features: ["Natural Language Processing", "Multi-turn Conversations", "Sentiment Analysis", "Integration Ready"]
-    },
-    {
       title: "Automation Wise AI Agents",
       description: "Smart automation systems that handle complex workflows, make decisions, and adapt to changing conditions.",
       icon: "⚡",
       features: ["Workflow Automation", "Decision Making", "Error Handling", "Performance Monitoring"]
+    },
+    {
+      title: "Conversational Wise AI Agents",
+      description: "Intelligent chatbots and virtual assistants that understand context, maintain conversations, and provide meaningful interactions.",
+      icon: "💬",
+      features: ["Natural Language Processing", "Multi-turn Conversations", "Sentiment Analysis", "Integration Ready"]
     },
     {
       title: "Data Analysis Wise AI Agents",
