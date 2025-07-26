@@ -14,7 +14,7 @@ const Header = () => {
             <h1 className="text-xl font-bold text-foreground">The Wise Monkey</h1>
           </div>
           
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-8 absolute left-1/2 transform -translate-x-1/2">
             <a href="#about" className="text-foreground/80 hover:text-primary transition-colors">About</a>
             <a href="#services" className="text-foreground/80 hover:text-primary transition-colors">Services</a>
             <a href="#contact" className="text-foreground/80 hover:text-primary transition-colors">Contact</a>
