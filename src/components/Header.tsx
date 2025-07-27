@@ -20,7 +20,11 @@ const Header = () => {
             <a href="#contact" className="text-foreground/80 hover:text-primary transition-colors">Contact</a>
           </nav>
           
-          <Button variant="glow" size="sm">
+          <Button 
+            variant="glow" 
+            size="sm"
+            onClick={() => window.open('https://form.typeform.com/to/rJ0fsdyt', '_blank')}
+          >
             Get Started
           </Button>
         </div>
