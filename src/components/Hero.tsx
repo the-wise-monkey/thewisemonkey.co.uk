@@ -45,7 +45,7 @@ const Hero = () => {
             >
               Start Your Project
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-3 display-none">
+            <Button variant="outline" size="lg" className="text-lg px-8 py-3 hidden">
               View Our Work
             </Button>
           </div>
