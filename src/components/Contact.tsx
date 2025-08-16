@@ -47,7 +47,12 @@ const Contact = () => {
           </div>
           
           <div className="space-y-4">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-3">
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="text-lg px-8 py-3"
+              onClick={() => window.open('https://form.typeform.com/to/rJ0fsdyt', '_blank')}
+            >
               Start Your Wise AI Project
             </Button>
             <p className="text-sm text-muted-foreground">
