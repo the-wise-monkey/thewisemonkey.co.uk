@@ -1,16 +1,14 @@
 import { Button } from "@/components/ui/button";
 import heroAiImage from "@/assets/hero-tech-cyan.jpg";
-import { useTranslation } from "react-i18next";
 
 const Hero = () => {
-  const { t } = useTranslation();
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
           src={heroAiImage} 
-          alt={t('hero.bgAlt')} 
+          alt="AI Technology Background" 
           className="w-full h-full object-cover opacity-20"
         />
         <div className="absolute inset-0 bg-gradient-hero opacity-80"></div>
@@ -26,15 +24,16 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="text-foreground">{t('hero.title.part1')}</span>{" "}
+            <span className="text-foreground">Building</span>{" "}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              {t('hero.title.emphasis')}
+              Wise AI
             </span>{" "}
-            <span className="text-foreground">{t('hero.title.part2')}</span>
+            <span className="text-foreground">Agents</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            {t('hero.subtitle')}
+            We're a deep tech software studio specializing in Wise AI agents, blockchain solutions, 
+            and cutting-edge technologies that transform how businesses operate in the digital age.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -44,25 +43,25 @@ const Hero = () => {
               className="text-lg px-8 py-3"
               onClick={() => window.open('https://form.typeform.com/to/rJ0fsdyt', '_blank')}
             >
-              {t('hero.ctaPrimary')}
+              Start Your Project
             </Button>
             <Button variant="outline" size="lg" className="text-lg px-8 py-3 hidden">
-              {t('hero.ctaSecondary')}
+              View Our Work
             </Button>
           </div>
           
           <div className="mt-12 grid grid-cols-3 gap-8 text-center">
             <div>
               <div className="text-3xl font-bold text-primary mb-2">50+</div>
-              <div className="text-muted-foreground">{t('hero.stats.deployed')}</div>
+              <div className="text-muted-foreground">Wise AI Agents Deployed</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-primary mb-2">99%</div>
-              <div className="text-muted-foreground">{t('hero.stats.satisfaction')}</div>
+              <div className="text-muted-foreground">Client Satisfaction</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-primary mb-2">24/7</div>
-              <div className="text-muted-foreground">{t('hero.stats.monitoring')}</div>
+              <div className="text-muted-foreground">Agent Monitoring</div>
             </div>
           </div>
         </div>

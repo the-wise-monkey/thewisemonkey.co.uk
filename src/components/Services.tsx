@@ -1,42 +1,42 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { useTranslation } from "react-i18next";
 
 const Services = () => {
-  const { t } = useTranslation();
   const services = [
     {
-      title: t('services.items.automation.title'),
-      description: t('services.items.automation.description'),
+      title: "Automation Wise AI Agents",
+      description: "Smart automation systems that handle complex workflows, make decisions, and adapt to changing conditions.",
       icon: "⚡",
-      features: t('services.items.automation.features', { returnObjects: true }) as string[],
+      features: ["Workflow Automation", "Decision Making", "Error Handling", "Performance Monitoring"]
     },
     {
-      title: t('services.items.conversational.title'),
-      description: t('services.items.conversational.description'),
+      title: "Conversational Wise AI Agents",
+      description: "Intelligent chatbots and virtual assistants that understand context, maintain conversations, and provide meaningful interactions.",
       icon: "💬",
-      features: t('services.items.conversational.features', { returnObjects: true }) as string[],
+      features: ["Natural Language Processing", "Multi-turn Conversations", "Sentiment Analysis", "Integration Ready"]
     },
     {
-      title: t('services.items.data.title'),
-      description: t('services.items.data.description'),
+      title: "Data Analysis Wise AI Agents",
+      description: "Sophisticated agents that analyze vast amounts of data, identify patterns, and generate actionable insights.",
       icon: "📊",
-      features: t('services.items.data.features', { returnObjects: true }) as string[],
+      features: ["Pattern Recognition", "Predictive Analytics", "Real-time Processing", "Custom Reports"]
     },
     {
-      title: t('services.items.integration.title'),
-      description: t('services.items.integration.description'),
+      title: "Integration Solutions",
+      description: "Seamless integration of Wise AI agents into your existing systems, ensuring smooth deployment and operation.",
       icon: "🔗",
-      features: t('services.items.integration.features', { returnObjects: true }) as string[],
-    },
+      features: ["API Integration", "Legacy System Support", "Cloud Deployment", "Monitoring & Maintenance"]
+    }
   ];
 
   return (
     <section id="services" className="py-20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 text-foreground">{t('services.title')}</h2>
+          <h2 className="text-4xl font-bold mb-4 text-foreground">Our Wise AI Agent Services</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            {t('services.subtitle')}
+            While we excel in blockchain and deep tech solutions, we're currently focused on 
+            creating Wise AI agents that solve real business problems. Each solution is crafted 
+            with precision and designed to scale.
           </p>
         </div>
         
