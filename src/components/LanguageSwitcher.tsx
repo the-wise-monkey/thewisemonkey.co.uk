@@ -6,14 +6,6 @@ const LanguageSwitcher = () => {
   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const value = event.target.value.toLowerCase().slice(0, 2);
     void i18n.changeLanguage(value);
-    try {
-      const { location } = window;
-      const hash = location.hash || '';
-      const newUrl = `/${value}${hash}`;
-      if (location.pathname !== `/${value}` || hash !== location.hash) {
-        window.history.replaceState(null, '', newUrl);
-      }
-    } catch {}
   };
 
   return (
