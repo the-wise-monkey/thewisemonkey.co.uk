@@ -25,13 +25,6 @@ const Header = () => {
           
           <div className="flex items-center gap-3">
             <LanguageSwitcher />
-            <Button 
-              variant="glow" 
-              size="sm"
-              onClick={() => window.open('https://form.typeform.com/to/rJ0fsdyt', '_blank')}
-            >
-              {t('nav.getStarted')}
-            </Button>
           </div>
         </div>
       </div>
