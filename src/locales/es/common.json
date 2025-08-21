@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "about": "Acerca de",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "getStarted": "Comenzar"
+  },
+  "language": {
+    "label": "Idioma",
+    "en": "Inglés",
+    "es": "Español"
+  },
+  "hero": {
+    "title": {
+      "part1": "Construyendo",
+      "emphasis": "IA Inteligente",
+      "part2": "Agentes"
+    },
+    "subtitle": "Somos un estudio de software de deep tech especializado en agentes de IA inteligente, soluciones blockchain y tecnologías de vanguardia que transforman cómo operan las empresas en la era digital.",
+    "ctaPrimary": "Inicia tu proyecto",
+    "ctaSecondary": "Ver nuestro trabajo",
+    "stats": {
+      "deployed": "Agentes de IA implementados",
+      "satisfaction": "Satisfacción del cliente",
+      "monitoring": "Monitoreo de agentes"
+    },
+    "bgAlt": "Fondo de tecnología de IA"
+  },
+  "about": {
+    "title": "Conoce The Wise Monkey",
+    "paragraph1": "Somos un estudio de desarrollo de software de deep tech con experiencia en agentes de IA inteligente, tecnologías blockchain y soluciones de software avanzadas. Aunque construimos en múltiples dominios de vanguardia, actualmente nos enfocamos en crear agentes de IA que no solo automatizan tareas: piensan, aprenden y evolucionan con tu negocio.",
+    "bullets": {
+      "expertiseTitle": "Experiencia en deep tech",
+      "expertiseDesc": "Agentes de IA inteligente, blockchain y soluciones de software avanzadas",
+      "customTitle": "Soluciones a medida",
+      "customDesc": "Agentes de IA adaptados a los requisitos únicos de tu negocio",
+      "learningTitle": "Aprendizaje continuo",
+      "learningDesc": "Nuestros agentes mejoran con el tiempo, adaptándose a tus necesidades cambiantes"
+    },
+    "imageAlt": "El estudio The Wise Monkey"
+  },
+  "services": {
+    "title": "Nuestros servicios de agentes de IA inteligente",
+    "subtitle": "Aunque destacamos en blockchain y deep tech, actualmente nos enfocamos en crear agentes de IA que resuelven problemas reales de negocio. Cada solución está diseñada con precisión y pensada para escalar.",
+    "items": {
+      "automation": {
+        "title": "Agentes de IA para automatización",
+        "description": "Sistemas de automatización inteligentes que manejan flujos de trabajo complejos, toman decisiones y se adaptan a condiciones cambiantes.",
+        "features": [
+          "Automatización de flujos",
+          "Toma de decisiones",
+          "Manejo de errores",
+          "Monitoreo de rendimiento"
+        ]
+      },
+      "conversational": {
+        "title": "Agentes conversacionales de IA",
+        "description": "Chatbots y asistentes virtuales inteligentes que entienden el contexto, mantienen conversaciones y ofrecen interacciones significativas.",
+        "features": [
+          "Procesamiento de lenguaje natural",
+          "Conversaciones multi-turno",
+          "Análisis de sentimiento",
+          "Listos para integrar"
+        ]
+      },
+      "data": {
+        "title": "Agentes de IA para análisis de datos",
+        "description": "Agentes sofisticados que analizan grandes volúmenes de datos, identifican patrones y generan insights accionables.",
+        "features": [
+          "Reconocimiento de patrones",
+          "Analítica predictiva",
+          "Procesamiento en tiempo real",
+          "Reportes a medida"
+        ]
+      },
+      "integration": {
+        "title": "Soluciones de integración",
+        "description": "Integración fluida de agentes de IA en tus sistemas existentes, garantizando un despliegue y operación sin fricciones.",
+        "features": [
+          "Integración vía API",
+          "Soporte para sistemas legados",
+          "Despliegue en la nube",
+          "Monitoreo y mantenimiento"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "¿Listo para construir tu agente de IA inteligente?",
+    "subtitle": "Conversemos sobre cómo crear una solución de IA inteligente adaptada a tus necesidades. Todo gran agente de IA comienza con una conversación.",
+    "cards": {
+      "email": {
+        "title": "Escríbenos",
+        "value": "hello@thewisemonkey.co.uk"
+      },
+      "chat": {
+        "title": "Conversemos",
+        "value": "Agenda una consulta gratuita"
+      },
+      "quick": {
+        "title": "Inicio rápido",
+        "value": "Obtén un prototipo en 2 semanas"
+      }
+    },
+    "cta": "Inicia tu proyecto de IA inteligente",
+    "disclaimer": "Sin compromiso. Exploremos juntos las posibilidades."
+  },
+  "footer": {
+    "tagline": "Construyendo el futuro con agentes de IA inteligente y soluciones de deep tech",
+    "copyright": "© 2024 The Wise Monkey Studio. Todos los derechos reservados.",
+    "brand": "The Wise Monkey",
+    "logoAlt": "Logo de The Wise Monkey"
+  },
+  "notFound": {
+    "message": "¡Ups! Página no encontrada",
+    "cta": "Volver al inicio"
+  }
+}
+
+
