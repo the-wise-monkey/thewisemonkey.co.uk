@@ -1,25 +1,41 @@
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'
+import { Languages } from 'lucide-react'
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select'
 
 const LanguageSwitcher = () => {
-  const { i18n } = useTranslation();
+  const { i18n } = useTranslation()
 
-  const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    void i18n.changeLanguage(event.target.value);
-  };
+  const currentLanguage = (i18n.resolvedLanguage || i18n.language || 'en').split('-')[0]
+
+  const handleChange = (value: string) => {
+    void i18n.changeLanguage(value)
+  }
 
   return (
-    <select
-      aria-label="Language selector"
-      value={i18n.resolvedLanguage}
-      onChange={handleChange}
-      className="bg-background text-foreground border border-border rounded-md px-2 py-1 focus:outline-none focus:ring-2 focus:ring-primary"
-    >
-      <option value="en">EN</option>
-      <option value="es">ES</option>
-    </select>
-  );
-};
+    <Select value={currentLanguage} onValueChange={handleChange}>
+      <SelectTrigger
+        aria-label="Language selector"
+        className="h-9 w-[92px] rounded-md px-3 text-sm border border-primary/20 bg-background/5 text-foreground hover:bg-primary/10 hover:border-primary/40 backdrop-blur-sm transition-colors"
+      >
+        <div className="flex items-center gap-2">
+          <Languages className="h-4 w-4 opacity-70" aria-hidden="true" />
+          <SelectValue placeholder="EN" />
+        </div>
+      </SelectTrigger>
+      <SelectContent align="end">
+        <SelectItem value="en">English (EN)</SelectItem>
+        <SelectItem value="es">Español (ES)</SelectItem>
+      </SelectContent>
+    </Select>
+  )
+}
 
-export default LanguageSwitcher;
+export default LanguageSwitcher
 
 
