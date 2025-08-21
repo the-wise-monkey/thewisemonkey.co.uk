@@ -16,11 +16,14 @@ void i18n
     fallbackLng: 'en',
     supportedLngs: ['en', 'es'],
     load: 'languageOnly',
+    cleanCode: true,
+    lowerCaseLng: true,
+    nonExplicitSupportedLngs: true,
     ns: ['common'],
     defaultNS: 'common',
     detection: {
-      // Local preference overrides browser language on subsequent visits
-      order: ['localStorage', 'navigator', 'htmlTag', 'cookie', 'querystring'],
+      // Prefer explicit user choice; fall back to browser language
+      order: ['localStorage', 'navigator'],
       caches: ['localStorage'],
     },
     interpolation: {
