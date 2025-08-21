@@ -14,7 +14,7 @@ const Header = () => {
               alt={t('footer.logoAlt')} 
               className="w-10 h-10"
             />
-            <h1 className="text-xl font-bold text-foreground">{t('footer.brand')}</h1>
+            <h1 className="text-base md:text-xl font-bold text-foreground">{t('footer.brand')}</h1>
           </div>
           
           <nav className="hidden md:flex items-center space-x-8 absolute left-1/2 transform -translate-x-1/2">
