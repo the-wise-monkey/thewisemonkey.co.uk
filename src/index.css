@@ -104,26 +104,7 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
-  html {
-		scrollbar-gutter: stable both-edges;
-		overflow-y: scroll;
-	}
-
   body {
     @apply bg-background text-foreground;
-    scrollbar-gutter: stable both-edges;
-    overflow-y: scroll;
-  }
-
-  /* Ensure no layout shift if libraries toggle body overflow */
-  body[style*="overflow: hidden"] {
-    padding-right: var(--removed-body-scroll-bar-size, 0px) !important;
-  }
-
-  /* Also cover attribute-based scroll locking */
-  html[data-scroll-locked],
-  body[data-scroll-locked] {
-    overflow-y: scroll !important;
-    padding-right: var(--removed-body-scroll-bar-size, 0px) !important;
   }
 }
