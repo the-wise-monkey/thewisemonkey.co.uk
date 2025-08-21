@@ -104,6 +104,11 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
+  html {
+		scrollbar-gutter: stable both-edges;
+		overflow-y: scroll;
+	}
+
   body {
     @apply bg-background text-foreground;
   }

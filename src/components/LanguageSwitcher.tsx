@@ -22,18 +22,66 @@ const LanguageSwitcher = () => {
         className="h-9 w-[64px] rounded-md px-2 text-sm border border-primary/20 bg-background/5 text-foreground hover:bg-primary/10 hover:border-primary/40 backdrop-blur-sm transition-colors cursor-pointer"
       >
         <div className="flex items-center gap-2">
-          <span className="text-lg leading-none" role="img" aria-label={currentLanguage === 'es' ? 'Español' : 'English'}>
-            {currentLanguage === 'es' ? '🇪🇸' : '🇬🇧'}
-          </span>
+          {currentLanguage === 'es' ? (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="14"
+              viewBox="0 0 3 2"
+              aria-label="Español"
+            >
+              <rect width="3" height="2" fill="#c60b1e" />
+              <rect y="0.5" width="3" height="1" fill="#ffc400" />
+            </svg>
+          ) : (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="14"
+              viewBox="0 0 60 30"
+              aria-label="English"
+            >
+              <clipPath id="t">
+                <path d="M0,0 v30 h60 v-30 z" />
+              </clipPath>
+              <clipPath id="s">
+                <path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z" />
+              </clipPath>
+              <g clipPath="url(#t)">
+                <path d="M0,0 v30 h60 v-30 z" fill="#012169" />
+                <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" strokeWidth="6" />
+                <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" strokeWidth="4" clipPath="url(#s)" />
+                <path d="M30,0 v30 M0,15 h60" stroke="#fff" strokeWidth="10" />
+                <path d="M30,0 v30 M0,15 h60" stroke="#C8102E" strokeWidth="6" />
+              </g>
+            </svg>
+          )}
         </div>
       </SelectTrigger>
       <SelectContent align="end">
         <SelectItem value="en">
-          <span className="mr-2 text-lg" role="img" aria-hidden="true">🇬🇧</span>
+          <span className="mr-2 inline-flex items-center" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 60 30">
+              <clipPath id="t2"><path d="M0,0 v30 h60 v-30 z" /></clipPath>
+              <clipPath id="s2"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z" /></clipPath>
+              <g clipPath="url(#t2)">
+                <path d="M0,0 v30 h60 v-30 z" fill="#012169" />
+                <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" strokeWidth="6" />
+                <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" strokeWidth="4" clipPath="url(#s2)" />
+                <path d="M30,0 v30 M0,15 h60" stroke="#fff" strokeWidth="10" />
+                <path d="M30,0 v30 M0,15 h60" stroke="#C8102E" strokeWidth="6" />
+              </g>
+            </svg>
+          </span>
           English
         </SelectItem>
         <SelectItem value="es">
-          <span className="mr-2 text-lg" role="img" aria-hidden="true">🇪🇸</span>
+          <span className="mr-2 inline-flex items-center" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 3 2">
+              <rect width="3" height="2" fill="#c60b1e" />
+              <rect y="0.5" width="3" height="1" fill="#ffc400" />
+            </svg>
+          </span>
           Español
         </SelectItem>
       </SelectContent>
