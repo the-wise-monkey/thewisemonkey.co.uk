@@ -4,8 +4,7 @@ const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
 
   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    const value = event.target.value.toLowerCase().slice(0, 2);
-    void i18n.changeLanguage(value);
+    void i18n.changeLanguage(event.target.value);
   };
 
   return (
