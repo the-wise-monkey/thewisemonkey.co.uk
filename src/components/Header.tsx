@@ -12,7 +12,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/0ab59fbd-7462-443c-b135-228fd47b2c30.png" 
               alt={t('footer.logoAlt')} 
-              className="w-10 h-10"
+              className="w-10 h-10 rounded-full"
             />
             <h1 className="text-base md:text-xl font-bold text-foreground">{t('footer.brand')}</h1>
           </div>
