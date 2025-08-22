@@ -11,7 +11,7 @@ const Hero = () => {
         <img 
           src={heroAiImage} 
           alt={t('hero.bgAlt')} 
-          className="w-full h-full object-cover opacity-20"
+          className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-hero opacity-80"></div>
       </div>
