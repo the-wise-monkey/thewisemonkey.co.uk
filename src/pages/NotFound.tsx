@@ -4,6 +4,8 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
+import heroAiImage from "@/assets/hero-tech-cyan.jpg";
+
 const NotFound = () => {
   const location = useLocation();
   const { t } = useTranslation();
@@ -19,7 +21,7 @@ const NotFound = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 -z-10">
         <img
-          src="/hero-tech-cyan.jpg"
+          src={heroAiImage}
           alt={t('hero.bgAlt')}
           className="w-full h-full object-cover"
         />
@@ -53,7 +55,7 @@ const NotFound = () => {
               <Link to="/">{t('notFound.cta')}</Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="text-lg px-8 py-3">
-              <a href="#contact">{t('notFound.ctaSecondary')}</a>
+              <a href="/#contact">{t('notFound.ctaSecondary')}</a>
             </Button>
           </div>
 
@@ -76,7 +78,7 @@ const NotFound = () => {
               <CardContent className="p-6">
                 <div className="text-2xl mb-2">✉️</div>
                 <p className="text-sm text-muted-foreground">
-                  <a href="#contact" className="underline underline-offset-4">{t('notFound.ctaSecondary')}</a>
+                  <a href="/#contact" className="underline underline-offset-4">{t('notFound.ctaSecondary')}</a>
                 </p>
               </CardContent>
             </Card>
