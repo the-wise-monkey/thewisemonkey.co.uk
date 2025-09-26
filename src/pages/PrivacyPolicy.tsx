@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Header />
-      <main className="container mx-auto px-6 py-12 prose prose-invert max-w-3xl">
+      <main className="container mx-auto px-6 pt-28 pb-12 prose prose-invert max-w-3xl">
         <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
 
         <p className="text-muted-foreground">Last updated: 26 September 2025</p>
