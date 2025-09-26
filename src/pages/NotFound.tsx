@@ -19,7 +19,7 @@ const NotFound = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 -z-10">
         <img
-          src="/assets/hero-tech-cyan.jpg"
+          src="/hero-tech-cyan.jpg"
           alt={t('hero.bgAlt')}
           className="w-full h-full object-cover"
         />
