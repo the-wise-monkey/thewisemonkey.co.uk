@@ -112,8 +112,12 @@
     "logoAlt": "The Wise Monkey Logo"
   },
   "notFound": {
-    "message": "Oops! Page not found",
-    "cta": "Return to Home"
+    "title": "Lost in the jungle",
+    "message": "We couldn't find the page you're looking for.",
+    "subtitle": "The page may have moved, been renamed, or never existed.",
+    "cta": "Return to Home",
+    "ctaSecondary": "Contact us",
+    "hint": "Here are some helpful options"
   }
 }
 

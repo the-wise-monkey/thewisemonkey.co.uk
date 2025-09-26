@@ -112,7 +112,11 @@
     "logoAlt": "Logo de The Wise Monkey"
   },
   "notFound": {
-    "message": "¡Ups! Página no encontrada",
-    "cta": "Volver al inicio"
+    "title": "Perdido en la jungla",
+    "message": "No pudimos encontrar la página que buscas.",
+    "subtitle": "La página puede haberse movido, cambiado de nombre o nunca existió.",
+    "cta": "Volver al inicio",
+    "ctaSecondary": "Contáctanos",
+    "hint": "Aquí tienes algunas opciones útiles"
   }
 }
