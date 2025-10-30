@@ -1,0 +1,17 @@
+version: "1.0"
+name: thewisemonkey.co.uk
+services:
+  app:
+    source:
+      type: github
+      repository: the-wise-monkey/thewisemonkey.co.uk
+      branch: main
+      dockerfile: Dockerfile
+    ports:
+      - 80
+      - 443
+    labels:
+      traefik.enable: "true"
+      traefik.http.routers.thewisemonkey.rule: "Host(`thewisemonkey.co.uk`, `www.thewisemonkey.co.uk`)"
+      traefik.http.routers.thewisemonkey.entrypoints: "websecure"
+      traefik.http.routers.thewisemonkey.tls.certresolver: "cloudflare"
