@@ -2,6 +2,7 @@
   "nav": {
     "about": "About",
     "services": "Services",
+    "blog": "Blog",
     "contact": "Contact",
     "getStarted": "Get Started"
   },
@@ -120,5 +121,3 @@
     "hint": "Here are some helpful options"
   }
 }
-
-
