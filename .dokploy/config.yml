@@ -1,5 +1,5 @@
 version: "1.0"
-name: thewisemonkey.co.uk
+name: thewisemonkey      # avoid dots in the app name
 services:
   app:
     source:
@@ -7,11 +7,24 @@ services:
       repository: the-wise-monkey/thewisemonkey.co.uk
       branch: main
       dockerfile: Dockerfile
-    ports:
-      - 80
-      - 443
+
     labels:
-      traefik.enable: "true"
-      traefik.http.routers.thewisemonkey.rule: "Host(`thewisemonkey.co.uk`, `www.thewisemonkey.co.uk`)"
-      traefik.http.routers.thewisemonkey.entrypoints: "websecure"
-      traefik.http.routers.thewisemonkey.tls.certresolver: "cloudflare"
+      - "traefik.enable=true"
+
+      # HTTP router (redirect to HTTPS)
+      - "traefik.http.routers.twm-web.rule=Host(`thewisemonkey.co.uk`,`www.thewisemonkey.co.uk`)"
+      - "traefik.http.routers.twm-web.entrypoints=web"
+      - "traefik.http.routers.twm-web.middlewares=redirect-to-https"
+
+      # Redirect middleware
+      - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
+
+      # HTTPS router
+      - "traefik.http.routers.twm-secure.rule=Host(`thewisemonkey.co.uk`,`www.thewisemonkey.co.uk`)"
+      - "traefik.http.routers.twm-secure.entrypoints=websecure"
+      - "traefik.http.routers.twm-secure.tls=true"
+      - "traefik.http.routers.twm-secure.tls.certresolver=cloudflare"
+
+      # Tell Traefik which INTERNAL port your app listens on
+      # Use 80 if you run Nginx in the image; use 3000 for Node/Vite, etc.
+      - "traefik.http.services.twm.loadbalancer.server.port=80"
