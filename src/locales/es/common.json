@@ -25,7 +25,7 @@
       "satisfaction": "Satisfacción del cliente",
       "monitoring": "Monitoreo de agentes"
     },
-    "bgAlt": "Fondo de tecnología de IA"
+    "bgAlt": "Red abstracta de nodos interconectados que representan la inteligencia artificial"
   },
   "about": {
     "title": "Conoce a The Wise Monkey",
@@ -38,7 +38,7 @@
       "learningTitle": "Aprendizaje continuo",
       "learningDesc": "Nuestros agentes mejoran con el tiempo, adaptándose a tus necesidades cambiantes"
     },
-    "imageAlt": "El estudio The Wise Monkey"
+    "imageAlt": "Un espacio de oficina moderno y colaborativo en The Wise Monkey, un estudio de desarrollo de software"
   },
   "services": {
     "title": "Nuestros servicios de agentes de IA",
@@ -110,7 +110,7 @@
     "tagline": "Construyendo el futuro con agentes de IA y soluciones de deep tech",
     "copyright": "© 2024 The Wise Monkey Studio. Todos los derechos reservados.",
     "brand": "The Wise Monkey",
-    "logoAlt": "Logo de The Wise Monkey"
+    "logoAlt": "Logo de cabeza de mono geométrico estilizado para The Wise Monkey"
   },
   "notFound": {
     "title": "Perdido en la jungla",
