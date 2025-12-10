@@ -14,81 +14,81 @@
   "hero": {
     "title": {
       "part1": "Construyendo",
-      "emphasis": "Agentes de Inteligencia Artificial",
-      "part2": "Sabios"
+      "emphasis": "Tecnología Profunda",
+      "part2": "Sistemas"
     },
-    "subtitle": "Somos un estudio de software de deep tech especializado en agentes de Inteligencia Artificial, soluciones blockchain y tecnologías de vanguardia que transforman la forma en que operan las empresas en la era digital.",
+    "subtitle": "Somos un estudio de software especializado en crear plataformas listas para producción en IA, blockchain, sistemas distribuidos y software embebido.",
     "ctaPrimary": "Comienza tu proyecto",
     "ctaSecondary": "Ver nuestro trabajo",
     "stats": {
-      "deployed": "Agentes de IA desplegados",
+      "deployed": "Sistemas de deep tech entregados",
       "satisfaction": "Satisfacción del cliente",
-      "monitoring": "Monitoreo de agentes"
+      "monitoring": "Confiabilidad y disponibilidad"
     },
-    "bgAlt": "Red abstracta de nodos interconectados que representan la inteligencia artificial"
+    "bgAlt": "Red abstracta de circuitos y conexiones que representan la innovación deep tech"
   },
   "about": {
     "title": "Conoce a The Wise Monkey",
-    "paragraph1": "Somos un estudio de desarrollo de software de deep tech con experiencia que abarca agentes de IA, tecnologías blockchain y soluciones de software avanzadas. Aunque construimos en múltiples dominios de vanguardia, actualmente nos enfocamos en crear agentes inteligentes de IA que no solo automatizan tareas—piensan, aprenden y evolucionan con tu negocio.",
+    "paragraph1": "Somos un estudio de desarrollo de software de deep tech con experiencia en IA avanzada, protocolos blockchain, arquitecturas distribuidas y software embebido. Diseñamos sistemas resilientes que llevan los productos del prototipo a producción con resultados medibles.",
     "bullets": {
-      "expertiseTitle": "Experiencia en deep tech",
-      "expertiseDesc": "Agentes de IA, blockchain y soluciones de software avanzadas",
-      "customTitle": "Soluciones personalizadas",
-      "customDesc": "Agentes de IA adaptados a los requisitos únicos de tu negocio",
-      "learningTitle": "Aprendizaje continuo",
-      "learningDesc": "Nuestros agentes mejoran con el tiempo, adaptándose a tus necesidades cambiantes"
+      "expertiseTitle": "Deep tech integral",
+      "expertiseDesc": "IA, blockchain, sistemas distribuidos y software embebido",
+      "customTitle": "De producto a producción",
+      "customDesc": "Estrategia, arquitectura y entrega adaptadas a tu negocio",
+      "learningTitle": "Confiabilidad primero",
+      "learningDesc": "Observabilidad, rendimiento y seguridad en cada lanzamiento"
     },
     "imageAlt": "Un espacio de oficina moderno y colaborativo en The Wise Monkey, un estudio de desarrollo de software"
   },
   "services": {
-    "title": "Nuestros servicios de agentes de IA",
-    "subtitle": "Aunque destacamos en soluciones blockchain y de deep tech, actualmente nos enfocamos en crear agentes de IA que resuelven problemas empresariales reales. Cada solución se crea con precisión y se diseña para escalar.",
+    "title": "Nuestros servicios de deep tech",
+    "subtitle": "Arquitectamos y entregamos software resiliente en IA, blockchain, sistemas distribuidos y plataformas embebidas. Cada proyecto está diseñado para lanzar productos robustos y escalables.",
     "items": {
       "automation": {
-        "title": "Agentes de IA para automatización",
-        "description": "Sistemas inteligentes de automatización que gestionan flujos de trabajo complejos, toman decisiones y se adaptan a condiciones cambiantes.",
+        "title": "Productos inteligentes",
+        "description": "Sistemas de IA aplicada y machine learning que impulsan copilotos, motores de decisión y experiencias personalizadas.",
         "features": [
-          "Automatización de flujos de trabajo",
-          "Toma de decisiones",
-          "Manejo de errores",
-          "Monitoreo de rendimiento"
+          "IA/ML aplicada",
+          "Recomendaciones y ranking",
+          "Orquestación de flujos de trabajo",
+          "Evaluación y seguridad"
         ]
       },
       "conversational": {
-        "title": "Agentes conversacionales de IA",
-        "description": "Chatbots y asistentes virtuales inteligentes que comprenden el contexto, mantienen conversaciones y proporcionan interacciones significativas.",
+        "title": "Blockchain y contratos inteligentes",
+        "description": "Soluciones blockchain seguras: desde contratos inteligentes hasta pagos y tokenización para productos reales.",
         "features": [
-          "Procesamiento de lenguaje natural",
-          "Conversaciones de múltiples turnos",
-          "Análisis de sentimiento",
-          "Preparados para integración"
+          "Contratos inteligentes y auditorías",
+          "DeFi y tokenización",
+          "Billeteras y pagos",
+          "Seguridad y cumplimiento"
         ]
       },
       "data": {
-        "title": "Agentes de IA para análisis de datos",
-        "description": "Agentes sofisticados que analizan grandes volúmenes de datos, identifican patrones y generan insights accionables.",
+        "title": "Sistemas distribuidos",
+        "description": "Servicios y pipelines de datos de alto rendimiento diseñados para escala, resiliencia y observabilidad.",
         "features": [
-          "Reconocimiento de patrones",
-          "Análisis predictivo",
-          "Procesamiento en tiempo real",
-          "Reportes personalizados"
+          "Microservicios y eventos",
+          "Pipelines de datos escalables",
+          "Observabilidad y SRE",
+          "Arquitecturas de alta disponibilidad"
         ]
       },
       "integration": {
-        "title": "Soluciones de integración",
-        "description": "Integración perfecta de agentes de IA en tus sistemas existentes, asegurando un despliegue y operación fluidos.",
+        "title": "Embebidos y edge",
+        "description": "Software embebido y cómputo en el borde que conectan dispositivos con la nube con rendimiento y confiabilidad.",
         "features": [
-          "Integración vía API",
-          "Soporte para sistemas legados",
-          "Despliegue en la nube",
-          "Monitoreo y mantenimiento"
+          "Firmware y RTOS",
+          "IA y analítica en el edge",
+          "Integración dispositivo-nube",
+          "Pruebas y validación"
         ]
       }
     }
   },
   "contact": {
-    "title": "¿Listo para construir tu agente de IA?",
-    "subtitle": "Hablemos sobre cómo crear una solución inteligente de IA adaptada a tus necesidades. Todo gran agente de IA comienza con una conversación.",
+    "title": "¿Listo para construir tu producto de deep tech?",
+    "subtitle": "Planifiquemos y entreguemos una solución de IA, blockchain, sistemas distribuidos o embebidos adaptada a tu negocio. Cada proyecto comienza con una hoja de ruta clara.",
     "cards": {
       "email": {
         "title": "Escríbenos",
@@ -96,18 +96,18 @@
       },
       "chat": {
         "title": "Hablemos",
-        "value": "Agenda una consulta gratuita"
+        "value": "Agenda una llamada estratégica gratuita"
       },
       "quick": {
-        "title": "Inicio rápido",
-        "value": "Obtén un prototipo en 2 semanas"
+        "title": "Del prototipo a producción",
+        "value": "Hitos enfocados en entrega"
       }
     },
-    "cta": "Comienza tu proyecto de IA",
-    "disclaimer": "Sin compromiso requerido. Exploremos las posibilidades juntos."
+    "cta": "Comienza tu proyecto de deep tech",
+    "disclaimer": "Sin compromiso. Definamos juntos la mejor construcción."
   },
   "footer": {
-    "tagline": "Construyendo el futuro con agentes de IA y soluciones de deep tech",
+    "tagline": "Construyendo el futuro con sistemas de deep tech: IA, blockchain, distribuidos y embebidos",
     "copyright": "© 2024 The Wise Monkey Studio. Todos los derechos reservados.",
     "brand": "The Wise Monkey",
     "logoAlt": "Logo de cabeza de mono geométrico estilizado para The Wise Monkey"

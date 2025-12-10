@@ -14,81 +14,81 @@
   "hero": {
     "title": {
       "part1": "Building",
-      "emphasis": "Wise AI",
-      "part2": "Agents"
+      "emphasis": "Deep Tech",
+      "part2": "Systems"
     },
-    "subtitle": "We're a deep tech software studio specializing in Wise AI agents, blockchain solutions, and cutting-edge technologies that transform how businesses operate in the digital age.",
+    "subtitle": "We're a deep tech software studio crafting production-ready platforms across AI, blockchain, distributed systems, and embedded software.",
     "ctaPrimary": "Start Your Project",
     "ctaSecondary": "View Our Work",
     "stats": {
-      "deployed": "Wise AI Agents Deployed",
+      "deployed": "Deep Tech Systems Delivered",
       "satisfaction": "Client Satisfaction",
-      "monitoring": "Agent Monitoring"
+      "monitoring": "Reliability & Uptime"
     },
-    "bgAlt": "Abstract network of interconnected nodes representing artificial intelligence"
+    "bgAlt": "Abstract network of circuits and connections representing deep tech innovation"
   },
   "about": {
     "title": "Meet The Wise Monkey",
-    "paragraph1": "We are a deep tech software development studio with expertise spanning Wise AI agents, blockchain technologies, and advanced software solutions. While we build across multiple cutting-edge domains, we're currently focused on creating intelligent Wise AI agents that don't just automate tasks—they think, learn, and evolve with your business.",
+    "paragraph1": "We are a deep tech software development studio with expertise spanning advanced AI, blockchain protocols, distributed architectures, and embedded engineering. We design resilient systems that move products from prototype to production with measurable business outcomes.",
     "bullets": {
-      "expertiseTitle": "Deep Tech Expertise",
-      "expertiseDesc": "Wise AI agents, blockchain, and advanced software solutions",
-      "customTitle": "Custom Solutions",
-      "customDesc": "Tailored AI agents that fit your unique business requirements",
-      "learningTitle": "Continuous Learning",
-      "learningDesc": "Our agents improve over time, adapting to your changing needs"
+      "expertiseTitle": "Full-Stack Deep Tech",
+      "expertiseDesc": "AI, blockchain, distributed systems, and embedded engineering",
+      "customTitle": "Product to Production",
+      "customDesc": "Strategy, architecture, and delivery tailored to your business",
+      "learningTitle": "Reliability First",
+      "learningDesc": "Observability, performance, and security built into every release"
     },
     "imageAlt": "A modern and collaborative office space at The Wise Monkey, a software development studio"
   },
   "services": {
-    "title": "Our Wise AI Agent Services",
-    "subtitle": "While we excel in blockchain and deep tech solutions, we're currently focused on creating Wise AI agents that solve real business problems. Each solution is crafted with precision and designed to scale.",
+    "title": "Our Deep Tech Services",
+    "subtitle": "We architect and deliver resilient software across AI, blockchain, distributed systems, and embedded platforms. Every engagement is designed to ship robust, scalable products.",
     "items": {
       "automation": {
-        "title": "Automation Wise AI Agents",
-        "description": "Smart automation systems that handle complex workflows, make decisions, and adapt to changing conditions.",
+        "title": "Intelligent Products",
+        "description": "Applied AI and machine learning systems that power copilots, decision engines, and personalized experiences.",
         "features": [
-          "Workflow Automation",
-          "Decision Making",
-          "Error Handling",
-          "Performance Monitoring"
+          "Applied AI/ML",
+          "Recommendations & ranking",
+          "Workflow orchestration",
+          "Evaluation & safety"
         ]
       },
       "conversational": {
-        "title": "Conversational Wise AI Agents",
-        "description": "Intelligent chatbots and virtual assistants that understand context, maintain conversations, and provide meaningful interactions.",
+        "title": "Blockchain & Smart Contracts",
+        "description": "Secure blockchain solutions from smart contracts to payments and tokenization for real-world products.",
         "features": [
-          "Natural Language Processing",
-          "Multi-turn Conversations",
-          "Sentiment Analysis",
-          "Integration Ready"
+          "Smart contracts & audits",
+          "DeFi and tokenization",
+          "Wallets and payments",
+          "Security and compliance"
         ]
       },
       "data": {
-        "title": "Data Analysis Wise AI Agents",
-        "description": "Sophisticated agents that analyze vast amounts of data, identify patterns, and generate actionable insights.",
+        "title": "Distributed Systems",
+        "description": "High-performance services and data pipelines built for scale, resilience, and observability.",
         "features": [
-          "Pattern Recognition",
-          "Predictive Analytics",
-          "Real-time Processing",
-          "Custom Reports"
+          "Microservices and event-driven",
+          "Scalable data pipelines",
+          "Observability & SRE",
+          "High availability architectures"
         ]
       },
       "integration": {
-        "title": "Integration Solutions",
-        "description": "Seamless integration of Wise AI agents into your existing systems, ensuring smooth deployment and operation.",
+        "title": "Embedded & Edge",
+        "description": "Embedded software and edge computing that connect devices to the cloud with performance and reliability.",
         "features": [
-          "API Integration",
-          "Legacy System Support",
-          "Cloud Deployment",
-          "Monitoring & Maintenance"
+          "Firmware and RTOS",
+          "Edge AI and analytics",
+          "Device-to-cloud integration",
+          "Testing and validation"
         ]
       }
     }
   },
   "contact": {
-    "title": "Ready to Build Your Wise AI Agent?",
-    "subtitle": "Let's discuss how we can create an intelligent Wise AI solution tailored to your needs. Every great Wise AI agent starts with a conversation.",
+    "title": "Ready to Build Your Deep Tech Product?",
+    "subtitle": "Let's plan and deliver an AI, blockchain, distributed, or embedded solution tailored to your business. Every build starts with a clear roadmap.",
     "cards": {
       "email": {
         "title": "Email Us",
@@ -96,18 +96,18 @@
       },
       "chat": {
         "title": "Let's Chat",
-        "value": "Schedule a free consultation"
+        "value": "Book a free strategy call"
       },
       "quick": {
-        "title": "Quick Start",
-        "value": "Get a prototype in 2 weeks"
+        "title": "From Prototype to Production",
+        "value": "Delivery-focused milestones"
       }
     },
-    "cta": "Start Your Wise AI Project",
-    "disclaimer": "No commitment required. Let's explore the possibilities together."
+    "cta": "Start Your Deep Tech Project",
+    "disclaimer": "No commitment required. Let's explore the right build together."
   },
   "footer": {
-    "tagline": "Building the future with Wise AI agents and deep tech solutions",
+    "tagline": "Building the future with deep tech systems: AI, blockchain, distributed, and embedded",
     "copyright": "© 2024 The Wise Monkey Studio. All rights reserved.",
     "brand": "The Wise Monkey",
     "logoAlt": "Stylized geometric monkey head logo for The Wise Monkey"
