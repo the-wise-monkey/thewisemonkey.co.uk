@@ -13,6 +13,7 @@ type GhostPost = {
   feature_image?: string | null;
 };
 
+const BLOG_BASE_URL = "https://thewisemonkey.co.uk/blog";
 const GHOST_CONTENT_API_URL = "https://blog.thewisemonkey.co.uk/ghost/api/content";
 const GHOST_CONTENT_API_KEY = import.meta.env.VITE_GHOST_CONTENT_API_KEY;
 
@@ -51,7 +52,11 @@ const LatestPosts = () => {
     retry: false,
   });
 
-  const hasPosts = posts.length > 0;
+  const uniquePosts = Array.from(
+    new Map(posts.map((post) => [post.slug || post.id, post])).values()
+  );
+
+  const hasPosts = uniquePosts.length > 0;
   const shouldShowFallback = !GHOST_CONTENT_API_KEY || (!isLoading && !hasPosts);
 
   return (
@@ -84,7 +89,7 @@ const LatestPosts = () => {
 
         {!isLoading && hasPosts && (
           <div className="grid gap-6 md:grid-cols-3">
-            {posts.map((post) => (
+            {uniquePosts.map((post) => (
               <Card key={post.id || post.slug} className="h-full overflow-hidden border-border">
                 {post.feature_image && (
                   <div className="h-40 w-full overflow-hidden">
@@ -110,7 +115,7 @@ const LatestPosts = () => {
                 <CardContent>
                   <Button asChild variant="link" className="px-0 text-primary">
                     <a
-                      href={`https://blog.thewisemonkey.co.uk/${post.slug}/?utm_source=website&utm_medium=referral`}
+                      href={`${BLOG_BASE_URL}/${post.slug}/?utm_source=website&utm_medium=referral`}
                       target="_blank"
                       rel="noreferrer"
                       aria-label={t("blog.readPost", { title: post.title })}
@@ -136,7 +141,7 @@ const LatestPosts = () => {
             <div className="mt-4">
               <Button asChild variant="outline">
                 <a
-                  href="https://blog.thewisemonkey.co.uk?utm_source=website&utm_medium=referral"
+                  href={`${BLOG_BASE_URL}?utm_source=website&utm_medium=referral`}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -151,7 +156,7 @@ const LatestPosts = () => {
         <div className="flex justify-center mt-10">
           <Button asChild variant="secondary" size="lg">
             <a
-              href="https://blog.thewisemonkey.co.uk?utm_source=website&utm_medium=referral"
+              href={`${BLOG_BASE_URL}?utm_source=website&utm_medium=referral`}
               target="_blank"
               rel="noreferrer"
             >
