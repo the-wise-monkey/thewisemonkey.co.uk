@@ -86,6 +86,19 @@
       }
     }
   },
+  "blog": {
+    "kicker": "Lo último del blog",
+    "title": "Ideas de deep tech y notas de entrega",
+    "subtitle": "Notas prácticas sobre cómo construir productos de IA, blockchain, sistemas distribuidos y embebidos que llegan a producción.",
+    "published": "Publicado el {{date}}",
+    "readMore": "Leer artículo",
+    "readPost": "Leer artículo: {{title}}",
+    "viewAll": "Visitar el blog",
+    "fallbackTitle": "Visita el blog para ver nuestros artículos más recientes",
+    "fallbackSubtitle": "Compartimos notas de entrega, análisis de arquitectura y aprendizajes de proyectos reales.",
+    "errorTitle": "No pudimos cargar las últimas publicaciones",
+    "errorSubtitle": "Abre el blog para ver las actualizaciones más recientes mientras restablecemos la conexión."
+  },
   "contact": {
     "title": "¿Listo para construir tu producto de deep tech?",
     "subtitle": "Planifiquemos y entreguemos una solución de IA, blockchain, sistemas distribuidos o embebidos adaptada a tu negocio. Cada proyecto comienza con una hoja de ruta clara.",

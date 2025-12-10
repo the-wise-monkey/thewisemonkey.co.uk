@@ -86,6 +86,19 @@
       }
     }
   },
+  "blog": {
+    "kicker": "Latest from the blog",
+    "title": "Deep tech insights and shipping notes",
+    "subtitle": "Practical notes on building AI, blockchain, distributed, and embedded products that reach production.",
+    "published": "Published {{date}}",
+    "readMore": "Read article",
+    "readPost": "Read article: {{title}}",
+    "viewAll": "Visit the blog",
+    "fallbackTitle": "Visit the blog for our latest articles",
+    "fallbackSubtitle": "We share shipping notes, architecture deep dives, and lessons from real client builds.",
+    "errorTitle": "We couldn't load the latest posts",
+    "errorSubtitle": "Open the blog to see the most recent updates while we reconnect."
+  },
   "contact": {
     "title": "Ready to Build Your Deep Tech Product?",
     "subtitle": "Let's plan and deliver an AI, blockchain, distributed, or embedded solution tailored to your business. Every build starts with a clear roadmap.",
