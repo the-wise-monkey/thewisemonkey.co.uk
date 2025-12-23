@@ -5,8 +5,8 @@ const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Header />
-      <main className="container mx-auto px-6 pt-28 pb-12 prose prose-invert max-w-3xl">
-        <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
+      <main className="container mx-auto px-6 pt-32 pb-24 prose prose-invert max-w-3xl">
+        <h1 className="text-4xl font-medium mb-8 text-foreground">Privacy Policy</h1>
 
         <p className="text-muted-foreground">Last updated: 26 September 2025</p>
 
@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
           and delivery of software and related services for our clients.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8">Scope</h2>
+        <h2 className="text-2xl font-medium mt-10 text-foreground">Scope</h2>
         <p>
           We build software solutions for a wide range of clients and industries. This policy
           covers information we process through our own websites, communications, and during the
@@ -24,7 +24,7 @@ const PrivacyPolicy = () => {
           that client’s privacy notice governs how end-user data is handled.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8">Information We Collect</h2>
+        <h2 className="text-2xl font-medium mt-10 text-foreground">Information We Collect</h2>
         <ul className="list-disc pl-6">
           <li>
             Contact information: such as name, email address, phone number, and company details
@@ -43,7 +43,7 @@ const PrivacyPolicy = () => {
           </li>
         </ul>
 
-        <h2 className="text-2xl font-semibold mt-8">How We Use Information</h2>
+        <h2 className="text-2xl font-medium mt-10 text-foreground">How We Use Information</h2>
         <ul className="list-disc pl-6">
           <li>To provide, operate, and improve our services and websites.</li>
           <li>To communicate with you about proposals, projects, and support.</li>
@@ -51,7 +51,7 @@ const PrivacyPolicy = () => {
           <li>To comply with legal obligations and enforce agreements.</li>
         </ul>
 
-        <h2 className="text-2xl font-semibold mt-8">Sharing of Information</h2>
+        <h2 className="text-2xl font-medium mt-10 text-foreground">Sharing of Information</h2>
         <p>
           We may share information with trusted service providers who assist in delivering our
           services (e.g., hosting, analytics, communications). We require such providers to handle
@@ -60,46 +60,46 @@ const PrivacyPolicy = () => {
           business transaction (e.g., merger or acquisition).
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8">Data Retention</h2>
+        <h2 className="text-2xl font-medium mt-10 text-foreground">Data Retention</h2>
         <p>
           We retain information for as long as necessary to fulfill the purposes outlined in this
           policy, unless a longer retention period is required or permitted by law or by our
           agreements with clients.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8">Security</h2>
+        <h2 className="text-2xl font-medium mt-10 text-foreground">Security</h2>
         <p>
           We implement reasonable administrative, technical, and organizational measures designed
           to protect information. No security method is perfect, and we cannot guarantee absolute
           security.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8">Your Choices</h2>
+        <h2 className="text-2xl font-medium mt-10 text-foreground">Your Choices</h2>
         <p>
           You may contact us to access, correct, or delete certain information, or to express
           preferences regarding communications. If you are an end user of a client application,
           please contact the relevant client directly.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8">International Transfers</h2>
+        <h2 className="text-2xl font-medium mt-10 text-foreground">International Transfers</h2>
         <p>
           We may process information in countries other than your own. Where required, we apply
           appropriate safeguards to such transfers.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8">Children</h2>
+        <h2 className="text-2xl font-medium mt-10 text-foreground">Children</h2>
         <p>
           Our services are not directed to children and we do not knowingly collect personal
           information from children.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8">Changes to This Policy</h2>
+        <h2 className="text-2xl font-medium mt-10 text-foreground">Changes to This Policy</h2>
         <p>
           We may update this Privacy Policy from time to time. The updated version will be
           indicated by an updated "Last updated" date and will be effective when posted.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8">Contact Us</h2>
+        <h2 className="text-2xl font-medium mt-10 text-foreground">Contact Us</h2>
         <p>
           If you have questions about this policy or our privacy practices, please contact us at
           privacy@thewisemonkey.co.uk.
