@@ -9,7 +9,7 @@ const About = () => {
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold mb-6 text-foreground">
+            <h2 className="text-4xl font-medium mb-6 text-foreground">
               {t('about.title')}
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">

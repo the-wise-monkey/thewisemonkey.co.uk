@@ -66,7 +66,7 @@ const LatestPosts = () => {
           <p className="text-sm uppercase text-primary font-semibold">
             {t("blog.kicker")}
           </p>
-          <h2 className="text-4xl font-bold mt-3 text-foreground">{t("blog.title")}</h2>
+          <h2 className="text-4xl font-medium mt-3 text-foreground">{t("blog.title")}</h2>
           <p className="text-muted-foreground mt-4">{t("blog.subtitle")}</p>
         </div>
 
