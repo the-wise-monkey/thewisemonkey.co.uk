@@ -26,7 +26,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-medium mb-6 leading-tight">
             <span className="text-foreground">{t('hero.title.part1')}</span>{" "}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
               {t('hero.title.emphasis')}
@@ -54,15 +54,15 @@ const Hero = () => {
           
           <div className="mt-12 grid grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-primary mb-2">50+</div>
+              <div className="text-4xl md:text-5xl font-medium text-primary mb-2">50+</div>
               <div className="text-muted-foreground">{t('hero.stats.deployed')}</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-primary mb-2">99%</div>
+              <div className="text-4xl md:text-5xl font-medium text-primary mb-2">99%</div>
               <div className="text-muted-foreground">{t('hero.stats.satisfaction')}</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-primary mb-2">24/7</div>
+              <div className="text-4xl md:text-5xl font-medium text-primary mb-2">24/7</div>
               <div className="text-muted-foreground">{t('hero.stats.monitoring')}</div>
             </div>
           </div>
