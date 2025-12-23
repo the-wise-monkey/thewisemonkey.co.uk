@@ -31,7 +31,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20">
+    <section id="services" className="py-24">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-medium mb-4 text-foreground">{t('services.title')}</h2>
