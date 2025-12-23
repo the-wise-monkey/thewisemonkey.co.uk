@@ -107,7 +107,7 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Fraunces', serif;
   }
 
   h1, h2, h3, h4, h5, h6, p, span, div, a, button, input, textarea, label {
