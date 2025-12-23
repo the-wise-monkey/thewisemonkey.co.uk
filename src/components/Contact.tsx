@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
+import { Mail, MessageSquare, Rocket } from "lucide-react";
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -18,7 +19,7 @@ const Contact = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <Card className="bg-card/50 border-primary/20 flex flex-col">
               <CardHeader className="text-center flex-1">
-                <div className="text-3xl mb-3">📧</div>
+                <Mail className="w-8 h-8 text-primary mx-auto mb-3" />
                 <CardTitle className="text-lg">{t('contact.cards.email.title')}</CardTitle>
                 <p className="text-muted-foreground mt-2">{t('contact.cards.email.value')}</p>
               </CardHeader>
@@ -26,7 +27,7 @@ const Contact = () => {
             
             <Card className="bg-card/50 border-primary/20 flex flex-col">
               <CardHeader className="text-center flex-1">
-                <div className="text-3xl mb-3">💬</div>
+                <MessageSquare className="w-8 h-8 text-primary mx-auto mb-3" />
                 <CardTitle className="text-lg">{t('contact.cards.chat.title')}</CardTitle>
                 <p className="text-muted-foreground mt-2">{t('contact.cards.chat.value')}</p>
               </CardHeader>
@@ -34,7 +35,7 @@ const Contact = () => {
             
             <Card className="bg-card/50 border-primary/20 flex flex-col">
               <CardHeader className="text-center flex-1">
-                <div className="text-3xl mb-3">🚀</div>
+                <Rocket className="w-8 h-8 text-primary mx-auto mb-3" />
                 <CardTitle className="text-lg">{t('contact.cards.quick.title')}</CardTitle>
                 <p className="text-muted-foreground mt-2">{t('contact.cards.quick.value')}</p>
               </CardHeader>
