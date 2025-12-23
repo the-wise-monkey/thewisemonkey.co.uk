@@ -18,7 +18,7 @@ const Header = () => {
             <h1 className="text-base md:text-xl font-bold text-foreground">{t('footer.brand')}</h1>
           </Link>
           
-          <nav className="hidden md:grid grid-cols-4 gap-8 text-center absolute left-1/2 transform -translate-x-1/2">
+          <nav className="hidden md:grid grid-cols-4 gap-4 text-center absolute left-1/2 transform -translate-x-1/2">
             <a href="/#about" className="text-foreground/80 hover:text-primary transition-colors">{t('nav.about')}</a>
             <a href="/blog" className="text-foreground/80 hover:text-primary transition-colors">{t('nav.blog')}</a>
             <a href="/#services" className="text-foreground/80 hover:text-primary transition-colors">{t('nav.services')}</a>
