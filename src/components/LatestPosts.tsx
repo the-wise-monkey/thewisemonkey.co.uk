@@ -138,35 +138,21 @@ const LatestPosts = () => {
             <p className="text-muted-foreground mt-2">
               {t(isError ? "blog.errorSubtitle" : "blog.fallbackSubtitle")}
             </p>
-            <div className="mt-4">
-              <Button asChild variant="outline">
-                <a
-                  href={`${BLOG_BASE_URL}?utm_source=website&utm_medium=referral`}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {t("blog.viewAll")}
-                  <ArrowUpRight className="ml-2 h-4 w-4" />
-                </a>
-              </Button>
-            </div>
           </div>
         )}
 
-        {!isLoading && hasPosts && !isError && (
-          <div className="flex justify-center mt-10">
-            <Button asChild variant="secondary" size="lg">
-              <a
-                href={`${BLOG_BASE_URL}?utm_source=website&utm_medium=referral`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {t("blog.viewAll")}
-                <ArrowUpRight className="ml-2 h-4 w-4" />
-              </a>
-            </Button>
-          </div>
-        )}
+        <div className="flex justify-center mt-10">
+          <Button asChild variant="secondary" size="lg">
+            <a
+              href={`${BLOG_BASE_URL}?utm_source=website&utm_medium=referral`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t("blog.viewAll")}
+              <ArrowUpRight className="ml-2 h-4 w-4" />
+            </a>
+          </Button>
+        </div>
       </div>
     </section>
   );
