@@ -60,7 +60,7 @@ const LatestPosts = () => {
   const shouldShowFallback = !GHOST_CONTENT_API_KEY || (!isLoading && !hasPosts);
 
   return (
-    <section id="blog" className="py-20 bg-muted/30">
+    <section id="blog" className="py-24 bg-muted/30">
       <div className="container px-4 md:px-6">
         <div className="max-w-2xl mb-12">
           <p className="text-sm uppercase text-primary font-semibold">

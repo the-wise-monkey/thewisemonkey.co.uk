@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 const About = () => {
   const { t } = useTranslation();
   return (
-    <section id="about" className="py-20 bg-secondary/50">
+    <section id="about" className="py-24 bg-secondary/50">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>

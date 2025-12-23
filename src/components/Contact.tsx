@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const { t } = useTranslation();
   return (
-    <section id="contact" className="py-20 bg-secondary/30">
+    <section id="contact" className="py-24 bg-secondary/30">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-medium mb-6 text-foreground">
@@ -16,34 +16,28 @@ const Contact = () => {
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <Card className="bg-card/50 border-primary/20">
-              <CardHeader className="text-center">
+            <Card className="bg-card/50 border-primary/20 flex flex-col">
+              <CardHeader className="text-center flex-1">
                 <div className="text-3xl mb-3">📧</div>
                 <CardTitle className="text-lg">{t('contact.cards.email.title')}</CardTitle>
+                <p className="text-muted-foreground mt-2">{t('contact.cards.email.value')}</p>
               </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">{t('contact.cards.email.value')}</p>
-              </CardContent>
             </Card>
             
-            <Card className="bg-card/50 border-primary/20">
-              <CardHeader className="text-center">
+            <Card className="bg-card/50 border-primary/20 flex flex-col">
+              <CardHeader className="text-center flex-1">
                 <div className="text-3xl mb-3">💬</div>
                 <CardTitle className="text-lg">{t('contact.cards.chat.title')}</CardTitle>
+                <p className="text-muted-foreground mt-2">{t('contact.cards.chat.value')}</p>
               </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">{t('contact.cards.chat.value')}</p>
-              </CardContent>
             </Card>
             
-            <Card className="bg-card/50 border-primary/20">
-              <CardHeader className="text-center">
+            <Card className="bg-card/50 border-primary/20 flex flex-col">
+              <CardHeader className="text-center flex-1">
                 <div className="text-3xl mb-3">🚀</div>
                 <CardTitle className="text-lg">{t('contact.cards.quick.title')}</CardTitle>
+                <p className="text-muted-foreground mt-2">{t('contact.cards.quick.value')}</p>
               </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">{t('contact.cards.quick.value')}</p>
-              </CardContent>
             </Card>
           </div>
           
