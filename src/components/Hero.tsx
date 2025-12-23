@@ -52,7 +52,7 @@ const Hero = () => {
             </Button>
           </div>
           
-          <div className="mt-12 grid grid-cols-3 gap-8 text-center">
+          <div className="mt-16 grid grid-cols-3 gap-12 text-center">
             <div>
               <div className="text-4xl md:text-5xl font-medium text-primary mb-2">50+</div>
               <div className="text-muted-foreground">{t('hero.stats.deployed')}</div>

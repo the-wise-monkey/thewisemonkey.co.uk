@@ -7,9 +7,9 @@ This document defines the design system and principles to follow for all changes
 ## Typography
 
 ### Font Family
-- **Primary Font**: IBM Plex Mono (monospace)
+- **Primary Font**: Space Grotesk (sans-serif)
 - **Usage**: Applied globally to the entire site - all text, headings, buttons, inputs
-- **Fallback**: `monospace`
+- **Fallback**: `sans-serif`
 
 ### Font Weights
 - **Headings (h1-h4)**: `font-medium` (500) - NO bold on large fonts
@@ -141,7 +141,7 @@ This document defines the design system and principles to follow for all changes
 2. ❌ Don't use emoji - use Lucide icons
 3. ❌ Don't use `tracking-*` letter spacing classes
 4. ❌ Don't use direct color classes (text-white, bg-black)
-5. ❌ Don't use multiple fonts - stick to IBM Plex Mono
+5. ❌ Don't use multiple fonts - stick to Space Grotesk
 6. ❌ Don't create inconsistent section padding
 7. ❌ Don't hardcode text - use i18n translations
 

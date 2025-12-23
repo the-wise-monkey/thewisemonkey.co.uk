@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { Compass, Home, Mail } from "lucide-react";
 
 import heroAiImage from "@/assets/hero-tech-cyan.jpg";
 
@@ -33,14 +34,14 @@ const NotFound = () => {
         <div className="absolute bottom-1/4 right-1/5 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse delay-1000" />
       </div>
 
-      <div className="relative z-10 container mx-auto px-6 py-24">
+      <div className="relative z-10 container mx-auto px-6 py-32">
         <div className="mx-auto max-w-3xl text-center">
           <div className="mb-8">
             <span className="inline-flex items-center justify-center rounded-full border border-primary/30 bg-background/30 px-4 py-1 text-sm text-primary backdrop-blur">
               404
             </span>
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
+          <h1 className="text-4xl md:text-6xl font-medium mb-6">
             <span className="text-foreground">{t('notFound.title')}</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-2">
@@ -59,26 +60,26 @@ const NotFound = () => {
             </Button>
           </div>
 
-          <div className="mt-12 grid gap-6 sm:grid-cols-3 text-left">
-            <Card className="bg-card/50 border-primary/20">
+          <div className="mt-16 grid gap-8 sm:grid-cols-3 text-left">
+            <Card className="bg-card/50 border-primary/20 hover:border-primary/40 transition-all duration-300">
               <CardContent className="p-6">
-                <div className="text-2xl mb-2">🧭</div>
+                <Compass className="w-8 h-8 text-primary mb-3" />
                 <p className="text-sm text-muted-foreground">{t('notFound.hint')}</p>
               </CardContent>
             </Card>
-            <Card className="bg-card/50 border-primary/20">
+            <Card className="bg-card/50 border-primary/20 hover:border-primary/40 transition-all duration-300">
               <CardContent className="p-6">
-                <div className="text-2xl mb-2">🏠</div>
+                <Home className="w-8 h-8 text-primary mb-3" />
                 <p className="text-sm text-muted-foreground">
-                  <Link to="/" className="underline underline-offset-4">{t('notFound.cta')}</Link>
+                  <Link to="/" className="underline underline-offset-4 hover:text-primary transition-colors">{t('notFound.cta')}</Link>
                 </p>
               </CardContent>
             </Card>
-            <Card className="bg-card/50 border-primary/20">
+            <Card className="bg-card/50 border-primary/20 hover:border-primary/40 transition-all duration-300">
               <CardContent className="p-6">
-                <div className="text-2xl mb-2">✉️</div>
+                <Mail className="w-8 h-8 text-primary mb-3" />
                 <p className="text-sm text-muted-foreground">
-                  <a href="/#contact" className="underline underline-offset-4">{t('notFound.ctaSecondary')}</a>
+                  <a href="/#contact" className="underline underline-offset-4 hover:text-primary transition-colors">{t('notFound.ctaSecondary')}</a>
                 </p>
               </CardContent>
             </Card>
