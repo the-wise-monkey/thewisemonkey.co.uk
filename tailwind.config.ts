@@ -19,7 +19,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'sans': ['Mona Sans', 'system-ui', 'sans-serif'],
+				'sans': ['Titillium Web', 'system-ui', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
