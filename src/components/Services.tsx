@@ -1,31 +1,39 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
+import { Brain, Link, BarChart3, Cpu, LucideIcon } from "lucide-react";
+
+type ServiceItem = {
+  title: string;
+  description: string;
+  icon: LucideIcon;
+  features: string[];
+};
 
 const Services = () => {
   const { t } = useTranslation();
-  const services = [
+  const services: ServiceItem[] = [
     {
       title: t('services.items.automation.title'),
       description: t('services.items.automation.description'),
-      icon: "⚡",
+      icon: Brain,
       features: t('services.items.automation.features', { returnObjects: true }) as string[],
     },
     {
       title: t('services.items.conversational.title'),
       description: t('services.items.conversational.description'),
-      icon: "💬",
+      icon: Link,
       features: t('services.items.conversational.features', { returnObjects: true }) as string[],
     },
     {
       title: t('services.items.data.title'),
       description: t('services.items.data.description'),
-      icon: "📊",
+      icon: BarChart3,
       features: t('services.items.data.features', { returnObjects: true }) as string[],
     },
     {
       title: t('services.items.integration.title'),
       description: t('services.items.integration.description'),
-      icon: "🔗",
+      icon: Cpu,
       features: t('services.items.integration.features', { returnObjects: true }) as string[],
     },
   ];
@@ -48,7 +56,7 @@ const Services = () => {
             >
               <CardHeader>
                 <div className="flex items-center space-x-3 mb-3">
-                  <div className="text-3xl">{service.icon}</div>
+                  <service.icon className="w-8 h-8 text-primary" />
                   <CardTitle className="text-xl text-foreground group-hover:text-primary transition-colors">
                     {service.title}
                   </CardTitle>
