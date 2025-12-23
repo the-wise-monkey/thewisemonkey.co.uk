@@ -63,7 +63,7 @@ const LatestPosts = () => {
     <section id="blog" className="py-20 bg-muted/30">
       <div className="container px-4 md:px-6">
         <div className="max-w-2xl mb-12">
-          <p className="text-sm uppercase tracking-[0.2em] text-primary font-semibold">
+          <p className="text-sm uppercase text-primary font-semibold">
             {t("blog.kicker")}
           </p>
           <h2 className="text-4xl font-bold mt-3 text-foreground">{t("blog.title")}</h2>
@@ -102,7 +102,7 @@ const LatestPosts = () => {
                   </div>
                 )}
                 <CardHeader>
-                  <p className="text-xs uppercase tracking-wide text-muted-foreground">
+                  <p className="text-xs uppercase text-muted-foreground">
                     {t("blog.published", { date: formatDate(post.published_at, i18n.language) })}
                   </p>
                   <CardTitle className="text-xl leading-tight text-foreground">{post.title}</CardTitle>
