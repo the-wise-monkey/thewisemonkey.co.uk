@@ -19,7 +19,7 @@ export default {
 		},
 		extend: {
 		fontFamily: {
-			'sans': ['Space Grotesk', 'sans-serif'],
+			'sans': ['Fraunces', 'serif'],
 		},
 			colors: {
 				border: 'hsl(var(--border))',
