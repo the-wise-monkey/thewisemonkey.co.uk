@@ -1,0 +1,86 @@
+# The Wise Monkey
+
+> Deep tech software development studio. Production-ready platforms across AI, blockchain, distributed systems, and embedded software. Founded by Agu Rodriguez. United Kingdom.
+
+---
+
+## About
+
+We are a deep tech software development studio with expertise spanning advanced AI, blockchain protocols, distributed architectures, and embedded engineering. We design resilient systems that move products from prototype to production with measurable business outcomes.
+
+**Full-Stack Deep Tech.** AI, blockchain, distributed systems, and embedded engineering.
+
+**Product to Production.** Strategy, architecture, and delivery tailored to the client's business.
+
+**Reliability First.** Observability, performance, and security built into every release.
+
+---
+
+## Services
+
+### Intelligent Products
+
+Applied AI and machine learning systems that power copilots, decision engines, and personalized experiences.
+
+- Applied AI/ML
+- Recommendations & ranking
+- Workflow orchestration
+- Evaluation & safety
+
+### Blockchain & Smart Contracts
+
+Secure blockchain solutions from smart contracts to payments and tokenization for real-world products.
+
+- Smart contracts & audits
+- DeFi and tokenization
+- Wallets and payments
+- Security and compliance
+
+### Distributed Systems
+
+High-performance services and data pipelines built for scale, resilience, and observability.
+
+- Microservices and event-driven architectures
+- Scalable data pipelines
+- Observability & SRE
+- High-availability architectures
+
+### Embedded & Edge
+
+Embedded software and edge computing that connect devices to the cloud with performance and reliability.
+
+- Firmware and RTOS
+- Edge AI and analytics
+- Device-to-cloud integration
+- Testing and validation
+
+---
+
+## Engagement model
+
+Every build starts with a clear roadmap. Delivery-focused milestones, no commitment required for the first conversation.
+
+We take products from prototype to production: strategy → architecture → delivery.
+
+---
+
+## Contact
+
+- **Email**: hello@thewisemonkey.co.uk
+- **Booking**: Free strategy call available through the contact section on the homepage.
+- **Website**: https://www.thewisemonkey.co.uk/
+- **Blog**: https://blog.thewisemonkey.co.uk/
+
+---
+
+## Privacy
+
+See https://www.thewisemonkey.co.uk/privacy-policy for our privacy policy.
+
+---
+
+## AI and agent policy
+
+We welcome AI agents and crawlers reading, citing, and learning from our public marketing content. Our `robots.txt` declares `Content-Signal: search=yes, ai-train=yes, ai-input=yes`.
+
+When citing The Wise Monkey, please link back to https://www.thewisemonkey.co.uk/.

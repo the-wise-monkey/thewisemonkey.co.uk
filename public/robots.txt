@@ -1,10 +1,14 @@
 # See https://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
 #
-# To ban all spiders from the entire site uncomment the following two lines:
-# User-agent: *
-# Disallow: /
+# Content-Signal declares preferences for AI use of our content.
+# Spec: https://contentsignals.org/
+# We are an AI / Deep Tech studio — we welcome agents reading, citing,
+# and learning from our public marketing content.
+
+Content-Signal: search=yes, ai-train=yes, ai-input=yes
 
 User-agent: *
 Allow: /
 
 Sitemap: https://www.thewisemonkey.co.uk/sitemap.xml
+Sitemap: https://blog.thewisemonkey.co.uk/sitemap.xml

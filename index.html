@@ -3,42 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Wise Monkey</title>
+    <title>The Wise Monkey — Deep Tech Software Studio (AI, Blockchain, Distributed, Embedded)</title>
     <link rel="icon" href="/lovable-uploads/0ab59fbd-7462-443c-b135-228fd47b2c30.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
-    <meta name="description" content="The Wise Monkey - AI Agents & Deep Tech Software Development Studio" />
-    <meta name="keywords" content="AI agents, deep tech, software development, AI studio, custom software, machine learning, artificial intelligence" />
+    <meta name="description" content="The Wise Monkey is a deep tech software development studio building production-ready platforms across AI, blockchain, distributed systems, and embedded software." />
+    <meta name="keywords" content="deep tech, AI agents, blockchain, smart contracts, distributed systems, embedded software, software studio, applied AI, edge computing, MLOps" />
     <meta name="author" content="The Wise Monkey" />
+    <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://www.thewisemonkey.co.uk/" />
 
-    <meta property="og:title" content="The Wise Monkey: AI & Deep Tech Development" />
-    <meta property="og:description" content="Leading AI Agents & Deep Tech Software Development Studio. We build bespoke AI solutions to solve complex business problems." />
+    <!-- Markdown alternate for AI agents -->
+    <link rel="alternate" type="text/markdown" href="/llms.txt" title="llms.txt — agent-readable site index" />
+    <link rel="alternate" type="text/markdown" href="/index.md" title="Homepage in Markdown" />
+
+    <!-- Discovery hints for agents -->
+    <link rel="api-catalog" href="/.well-known/api-catalog" />
+    <link rel="agent-skills-index" href="/.well-known/agent-skills/index.json" />
+
+    <meta property="og:title" content="The Wise Monkey — Deep Tech Software Studio" />
+    <meta property="og:description" content="Production-ready platforms across AI, blockchain, distributed systems, and embedded software. Strategy, architecture, delivery." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.thewisemonkey.co.uk/" />
     <meta property="og:image" content="https://www.thewisemonkey.co.uk/lovable-uploads/0ab59fbd-7462-443c-b135-228fd47b2c30.png" />
+    <meta property="og:site_name" content="The Wise Monkey" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:locale:alternate" content="es_ES" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@thewisemonkey" />
-    <meta name="twitter:title" content="The Wise Monkey: AI & Deep Tech Development" />
-    <meta name="twitter:description" content="Leading AI Agents & Deep Tech Software Development Studio. We build bespoke AI solutions to solve complex business problems." />
+    <meta name="twitter:title" content="The Wise Monkey — Deep Tech Software Studio" />
+    <meta name="twitter:description" content="Production-ready platforms across AI, blockchain, distributed systems, and embedded software." />
     <meta name="twitter:image" content="https://www.thewisemonkey.co.uk/lovable-uploads/0ab59fbd-7462-443c-b135-228fd47b2c30.png" />
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "The Wise Monkey",
-      "url": "https://www.thewisemonkey.co.uk/",
-      "logo": "https://www.thewisemonkey.co.uk/lovable-uploads/0ab59fbd-7462-443c-b135-228fd47b2c30.png",
-      "sameAs": [
-        "https://twitter.com/thewisemonkey"
-      ],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "email": "hello@thewisemonkey.co.uk",
-        "contactType": "customer service"
-      }
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.thewisemonkey.co.uk/#organization",
+          "name": "The Wise Monkey",
+          "alternateName": "TheWiseMonkey Studio",
+          "url": "https://www.thewisemonkey.co.uk/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thewisemonkey.co.uk/lovable-uploads/0ab59fbd-7462-443c-b135-228fd47b2c30.png"
+          },
+          "description": "Deep tech software development studio building production-ready platforms across AI, blockchain, distributed systems, and embedded software.",
+          "founder": { "@id": "https://www.thewisemonkey.co.uk/#founder" },
+          "sameAs": [
+            "https://twitter.com/thewisemonkey",
+            "https://blog.thewisemonkey.co.uk/"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "hello@thewisemonkey.co.uk",
+            "contactType": "customer service",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "Spanish"]
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.thewisemonkey.co.uk/#founder",
+          "name": "Agu Rodriguez",
+          "jobTitle": "Founder",
+          "worksFor": { "@id": "https://www.thewisemonkey.co.uk/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.thewisemonkey.co.uk/#website",
+          "url": "https://www.thewisemonkey.co.uk/",
+          "name": "The Wise Monkey",
+          "publisher": { "@id": "https://www.thewisemonkey.co.uk/#organization" },
+          "inLanguage": ["en", "es"]
+        },
+        {
+          "@type": "Service",
+          "name": "Intelligent Products",
+          "provider": { "@id": "https://www.thewisemonkey.co.uk/#organization" },
+          "description": "Applied AI and machine learning systems that power copilots, decision engines, and personalized experiences.",
+          "areaServed": "Worldwide",
+          "serviceType": "AI / ML product engineering"
+        },
+        {
+          "@type": "Service",
+          "name": "Blockchain & Smart Contracts",
+          "provider": { "@id": "https://www.thewisemonkey.co.uk/#organization" },
+          "description": "Secure blockchain solutions from smart contracts to payments and tokenization for real-world products.",
+          "areaServed": "Worldwide",
+          "serviceType": "Blockchain engineering"
+        },
+        {
+          "@type": "Service",
+          "name": "Distributed Systems",
+          "provider": { "@id": "https://www.thewisemonkey.co.uk/#organization" },
+          "description": "High-performance services and data pipelines built for scale, resilience, and observability.",
+          "areaServed": "Worldwide",
+          "serviceType": "Backend / distributed systems engineering"
+        },
+        {
+          "@type": "Service",
+          "name": "Embedded & Edge",
+          "provider": { "@id": "https://www.thewisemonkey.co.uk/#organization" },
+          "description": "Embedded software and edge computing that connect devices to the cloud with performance and reliability.",
+          "areaServed": "Worldwide",
+          "serviceType": "Embedded / edge engineering"
+        }
+      ]
     }
     </script>
   </head>

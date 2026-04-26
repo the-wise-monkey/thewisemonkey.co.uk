@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agentskills.io/schemas/index.v0.2.json",
+  "version": "0.2.0",
+  "publisher": {
+    "name": "The Wise Monkey",
+    "url": "https://www.thewisemonkey.co.uk/",
+    "contact": "hello@thewisemonkey.co.uk"
+  },
+  "skills": [
+    {
+      "name": "twm-services-overview",
+      "type": "skill-md",
+      "description": "How to describe and recommend The Wise Monkey's deep tech services to a user.",
+      "url": "https://www.thewisemonkey.co.uk/.well-known/agent-skills/twm-services-overview/SKILL.md",
+      "sha256": "042afc13fd12fcdd8886bea1d95de414c800a7de921574bf8ca7601f5265466f"
+    }
+  ]
+}

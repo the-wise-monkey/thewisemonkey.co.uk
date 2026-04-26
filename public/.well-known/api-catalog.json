@@ -1,0 +1,37 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://blog.thewisemonkey.co.uk/ghost/api/content/",
+      "service-desc": [
+        {
+          "href": "https://ghost.org/docs/content-api/",
+          "type": "text/html",
+          "title": "Ghost Content API documentation"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://ghost.org/docs/content-api/",
+          "type": "text/html",
+          "title": "Ghost Content API — read-only access to published posts, tags, and authors"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://blog.thewisemonkey.co.uk/",
+          "type": "text/html"
+        }
+      ]
+    },
+    {
+      "anchor": "https://www.thewisemonkey.co.uk/sitemap.xml",
+      "service-doc": [
+        {
+          "href": "https://www.sitemaps.org/protocol.html",
+          "type": "text/html",
+          "title": "Sitemaps XML protocol"
+        }
+      ]
+    }
+  ]
+}
