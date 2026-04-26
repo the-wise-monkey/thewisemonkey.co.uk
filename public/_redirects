@@ -1,0 +1,9 @@
+# Cloudflare Pages redirects/rewrites config
+# Docs: https://developers.cloudflare.com/pages/configuration/redirects/
+# Status 200 = rewrite (not redirect). Order matters; first match wins.
+
+# Extensionless well-known endpoints → backing JSON file
+/.well-known/api-catalog  /.well-known/api-catalog.json  200
+
+# SPA fallback (must be last)
+/*  /index.html  200
