@@ -5,9 +5,8 @@
 # We are an AI / Deep Tech studio — we welcome agents reading, citing,
 # and learning from our public marketing content.
 
-Content-Signal: search=yes, ai-train=yes, ai-input=yes
-
 User-agent: *
+Content-Signal: search=yes, ai-train=yes, ai-input=yes
 Allow: /
 
 Sitemap: https://www.thewisemonkey.co.uk/sitemap.xml
