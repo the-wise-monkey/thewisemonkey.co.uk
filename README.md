@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# thewisemonkey.co.uk
 
-## Project info
+Marketing site for **The Wise Monkey** — a deep tech software development studio building production-ready platforms across AI, blockchain, distributed systems, and embedded software.
 
-**URL**: https://lovable.dev/projects/72898903-5f98-4d55-ad53-b46657345ef4
+Live: <https://www.thewisemonkey.co.uk/>
 
-## How can I edit this code?
+## Stack
 
-There are several ways of editing your application.
+- **Vite** + **React 18** + **TypeScript**
+- **Tailwind CSS** + **shadcn/ui** (Radix primitives)
+- **react-i18next** for English / Spanish locales (`src/locales/{en,es}/common.json`)
+- **react-router-dom** SPA routing — see `src/App.tsx`
+- **@tanstack/react-query** for the blog feed integration
 
-**Use Lovable**
+## Develop
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/72898903-5f98-4d55-ad53-b46657345ef4) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Requires Node.js (20+) and npm.
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+npm install
+npm run dev       # dev server on :8080
+npm run build     # production build into dist/
+npm run lint      # eslint
+npm run preview   # preview the production build
 ```
 
-**Edit a file directly in GitHub**
+The blog at <https://blog.thewisemonkey.co.uk/> is a separate Ghost install consumed via the `LatestPosts` component (`src/components/LatestPosts.tsx`).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Deploy
 
-**Use GitHub Codespaces**
+Deployed via **Dokploy** (self-hosted PaaS over Docker), behind Cloudflare as the CDN.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- `Dockerfile` — multi-stage build: Node builder → nginx static serve.
+- `nginx.conf` — serves `dist/` and adds the headers, content-type overrides, and rewrites needed for agent-readiness.
+- Auto-deploys on push to `main`.
 
-## What technologies are used for this project?
+> Cache: `nginx.conf` sets `max-age=300, must-revalidate` on the agent-readiness files (`robots.txt`, `sitemap.xml`, `llms.txt`, `.well-known/*`) so updates propagate through the Cloudflare edge in minutes instead of hours. Other static assets keep CF default caching.
 
-This project is built with:
+## Agent-readiness
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This site implements the protocols evaluated by [isitagentready.com](https://isitagentready.com):
 
-## How can I deploy this project?
+- `public/llms.txt` and `public/llms-full.txt` (per [llmstxt.org](https://llmstxt.org/))
+- `public/index.md` and `public/privacy-policy.md` — markdown alternates served via `Accept: text/markdown` content negotiation (handled in `nginx.conf`)
+- `public/.well-known/api-catalog.json` — RFC 9727 linkset
+- `public/.well-known/agent-skills/index.json` + skill markdown — Cloudflare's Agent Skills RFC
+- `public/robots.txt` — declares Content Signals (`search=yes, ai-train=yes, ai-input=yes`) inside the `User-agent: *` block
+- `index.html` — JSON-LD `@graph` (Organization, Person, WebSite, four Services), `Link` relations to discovery endpoints
+- `src/components/WebMcp.tsx` — registers three WebMCP tools (`describe_services`, `jump_to_contact`, `open_blog`) when the browser supports `navigator.modelContext`
 
-Simply open [Lovable](https://lovable.dev/projects/72898903-5f98-4d55-ad53-b46657345ef4) and click on Share -> Publish.
+## License
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Source code in this repo is for The Wise Monkey's marketing site. Logo and brand assets are not licensed for reuse.

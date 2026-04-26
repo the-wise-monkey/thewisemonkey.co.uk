@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-3 mb-4 md:mb-0">
             <img 
-              src="/lovable-uploads/0ab59fbd-7462-443c-b135-228fd47b2c30.png" 
+              src="/brand/logo.png"
               alt={t('footer.logoAlt')} 
               className="w-8 h-8"
             />

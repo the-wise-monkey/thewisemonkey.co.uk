@@ -11,7 +11,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-3 hover:opacity-90 transition-opacity">
             <img 
-              src="/lovable-uploads/0ab59fbd-7462-443c-b135-228fd47b2c30.png" 
+              src="/brand/logo.png"
               alt={t('footer.logoAlt')} 
               className="w-10 h-10 rounded-md"
             />
